@@ -334,17 +334,6 @@
       </snapshots>
     </repository>
     <repository>
-      <id>springsource.releases</id>
-      <name>SpringSource GA Repository</name>
-      <url>http://repo.springsource.org/release</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
       <id>redshift</id>
       <url>http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
     </repository>
