@@ -337,7 +337,23 @@
       <id>redshift</id>
       <url>http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
     </repository>
-  </repositories>
+   
+    <repository>
+      <id>spring-snapshots</id>
+      <name>Spring Maven Snapshot Repository</name>
+      <url>http://s3.amazonaws.com/maven.springframework.org/snapshot</url>
+    </repository> 
+    <repository>
+      <id>spring-milestones</id>
+      <name>Spring Maven Milestone Repository</name>
+      <url>https://repo.spring.io/milestone</url>
+    </repository> 
+    <repository>
+      <id>spring-release</id>
+      <name>Spring Maven Milestone Repository</name>
+      <url>https://repo.spring.io/release</url>
+    </repository> 
+</repositories>
 
   <dependencyManagement>
     <dependencies>
