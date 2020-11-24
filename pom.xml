@@ -315,17 +315,17 @@
     <repository>
       <id>ohdsi</id>
       <name>repo.ohdsi.org</name>
-      <url>http://repo.ohdsi.org:8085/nexus/content/repositories/releases</url>
+      <url>https://repo.ohdsi.org:8085/nexus/content/repositories/releases</url>
     </repository>
     <repository>
       <id>ohdsi.thirdparty</id>
       <name>repo.ohdsi.org</name>
-      <url>http://repo.ohdsi.org:8085/nexus/content/repositories/thirdparty</url>
+      <url>https://repo.ohdsi.org:8085/nexus/content/repositories/thirdparty</url>
     </repository>
     <repository>
       <id>ohdsi.snapshots</id>
       <name>repo.ohdsi.org-snapshots</name>
-      <url>http://repo.ohdsi.org:8085/nexus/content/repositories/snapshots</url>
+      <url>https://repo.ohdsi.org:8085/nexus/content/repositories/snapshots</url>
       <releases>
         <enabled>false</enabled>
       </releases>
@@ -335,13 +335,13 @@
     </repository>
     <repository>
       <id>redshift</id>
-      <url>http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
+      <url>https://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
     </repository>
    
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Maven Snapshot Repository</name>
-      <url>http://s3.amazonaws.com/maven.springframework.org/snapshot</url>
+      <url>https://s3.amazonaws.com/maven.springframework.org/snapshot</url>
     </repository> 
     <repository>
       <id>spring-milestones</id>
